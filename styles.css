@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    font-size: 70px;
+    text-align: center;
+}
+.fcontainer1,
+.fcontainer2,
+.fcontainer3,
+.fcontainer4,
+.slcontainer1 {
+    display: flex;
+    align-content: center;
+}
+
+.slcontainer1{
+    flex-direction: column;
+}
+
+.fcontainer1{
+    /*align-items: center;*/
+    margin: 5px;
+    align-items: flex-start;
+
+}
+
+.fcontainer2{
+    /*align-items: center;*/
+
+    align-items: flex-start;
+
+}
+
+/* 
+.para{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: end; */
+
+
+.fitem {
+    border: 2px solid black;
+
+}
+
+.item1,
+.item9{
+    background-color: red;
+    height: 200px;
+    
+
+}
+
+.item2,
+.item10{
+    height: 200px;
+    width: 200px;
+    margin-left: 5px;
+    background-color: gold;
+    
+}
+
+.item3,
+.item6{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+
+/* defining properties of 2 rect. without this code, the rectangle would have been stacked on each other */
+.item4,
+.item5,
+.item7,
+.item8{
+    height: 97.5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: blue;
+
+}
+
